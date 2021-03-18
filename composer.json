@@ -1,0 +1,12 @@
+{
+    "name": "hocvt/deployer-2021",
+    "authors": [
+        {
+            "name": "Vu Thai Hoc",
+            "email": "vuthaihoc.ttud@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "deployer/deployer": "^6.8"
+    }
+}

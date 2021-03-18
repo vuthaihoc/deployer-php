@@ -1,0 +1,11 @@
+apps:
+  - script : /var/www/example.com/current/artisan
+    name     : 'auto-cache'
+    interpreter : /usr/bin/php
+    interpreter_args: -d memory_limit=500m
+    cwd : /var/www/example.com/current
+    exec_mode: fork
+    args : auto-cache
+    autorestart : true
+    restart_delay : 10000
+    log_date_format : MMDDHHmm
