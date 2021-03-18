@@ -8,4 +8,4 @@ An Simple example with custom tasks
 
 - Manual : clone this project
 
-- Composer : `composer create-project hocvt/deployer-2021 deployer-2021`
+- Composer : `composer create-project hocvt/deployer-2021 deployer-2021 -s dev`
