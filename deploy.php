@@ -7,7 +7,7 @@ require 'recipe/laravel.php';
 set('application', 'my_project');
 
 // Project repository
-set('repository', 'git@gitlab.com:colombo-group/gldoc-main.git');
+set('repository', 'git@gitlab.com:example/web.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true); 
